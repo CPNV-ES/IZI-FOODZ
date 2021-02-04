@@ -1,6 +1,8 @@
   
 .DS_STORE
 
+.metadata
+
 /dist/
 /bazel-out
 /integration/bazel/bazel-*
