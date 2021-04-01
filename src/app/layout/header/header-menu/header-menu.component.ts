@@ -13,7 +13,6 @@ export class HeaderMenuComponent implements OnInit {
 
   ngOnInit(): void {
     $('.set-bg').each(function () {
-      console.log('BIIIITEEE');
       var bg = $(this).data('setbg');
       $(this).css('background-image', 'url(' + bg + ')');
 
