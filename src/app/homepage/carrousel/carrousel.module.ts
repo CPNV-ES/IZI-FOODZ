@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 
-
 @NgModule({
   declarations: [],
   imports: [
@@ -11,4 +10,4 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
     IvyCarouselModule
   ]
 })
-export class CarouselModule { }
+export class CarrouselModule {  }
