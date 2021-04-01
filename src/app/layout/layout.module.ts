@@ -6,7 +6,7 @@ import { MainLayoutComponent } from './main-layout/main-layout.component';
 import { HeaderBurgerComponent } from './header/header-burger/header-burger.component';
 import { HeaderMenuComponent } from './header/header-menu/header-menu.component';
 import { HeaderSearchComponent } from './header/header-search/header-search.component';
-
+import { TitleComponent } from './title/title.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -21,6 +21,7 @@ import { HeaderSearchComponent } from './header/header-search/header-search.comp
     HeaderBurgerComponent,
     HeaderMenuComponent,
     HeaderSearchComponent,
+    TitleComponent,
   ]
 })
 export class LayoutModule { }

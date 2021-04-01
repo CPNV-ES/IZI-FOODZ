@@ -6,6 +6,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {LayoutModule} from './layout/layout.module';
 import {HomepageModule} from './homepage/homepage.module';
 
+
 const routes: Routes = [
   {
     path: '',
@@ -16,7 +17,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,

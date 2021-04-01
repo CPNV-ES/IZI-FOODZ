@@ -16,15 +16,18 @@
     --------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
-        $("#preloder").delay(200).fadeOut("slow");
+		$("#preloder").delay(200).fadeOut("slow");
+		
     });
 
     /*------------------
         Background Set
     --------------------*/
     $('.set-bg').each(function () {
+		console.log("BIIIITEEE");
         var bg = $(this).data('setbg');
-        $(this).css('background-image', 'url(' + bg + ')');
+		$(this).css('background-image', 'url(' + bg + ')');
+		
     });
 
     //Humberger Menu
