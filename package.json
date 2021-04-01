@@ -27,6 +27,8 @@
     "elegant-icons": "0.0.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",
+    "ngx-owl-carousel-o": "^5.0.0",
+    "owl.carousel": "^2.3.4",
     "rxjs": "~6.6.0",
     "slicknav": "^1.0.8",
     "tslib": "^2.0.0",
