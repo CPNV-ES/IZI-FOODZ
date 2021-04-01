@@ -1,11 +1,27 @@
+<header class="header">
+  <div class="header__top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-1 col-6 order-md-1 order-1">
+          <app-header-burger></app-header-burger>
+        </div>
 
-<app-header-burger fxLayout="column"></app-header-burger>
-<app-header-menu fxLayout="column"></app-header-menu>
-<app-header-search fxLayout="column"></app-header-search>
+        <div class="col-lg-8 col-md-10 order-md-2 order-3">
+          <app-header-menu></app-header-menu>
+        </div>
+        <div class="col-lg-2 col-md-1 col-6 order-md-3 order-2">
+          <app-header-search></app-header-search>
+        </div>
 
-<div fxLayout="row" fxFlex="100">
-  <div class="content" fxLayout="column" fxFlex>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+
+<div>
+  <div class="content">
     <router-outlet></router-outlet>
   </div>
 </div>
-

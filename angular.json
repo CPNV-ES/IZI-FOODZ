@@ -31,10 +31,17 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/font-awesome/css/font-awesome.css",
+              "node_modules/slicknav/dist/slicknav.min.css",
+              "node_modules/elegant-icons/style.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/slicknav/dist/jquery.slicknav.min.js",
+              "src/main.js"
+            ]
           },
           "configurations": {
             "production": {
